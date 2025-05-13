@@ -48,7 +48,7 @@ spring-boot-user-demo/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/spring-boot-user-demo.git
+git clone https://github.com/Mkhulekani/springboot-demo.git
 cd spring-boot-user-demo
 
 
