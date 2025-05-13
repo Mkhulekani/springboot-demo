@@ -57,3 +57,51 @@ cd spring-boot-user-demo
 ✅ How to Test
 To execute unit tests:
 ./gradlew test
+
+📌 Features Implemented
+
+✅ MVC Layered Architecture
+
+✅ Constructor-based Dependency Injection (@Autowired)
+
+✅ Spring Boot annotations: @SpringBootApplication, @Override, etc.
+
+✅ In-memory data handling via custom repository
+
+✅ Clean, testable, and modular code
+
+✅ Gitflow workflow for collaborative development
+
+🧪 Code Quality & Testing Standards
+Descriptive commit messages using types: feat, fix, test, docs
+
+Follows Java naming conventions and OOP principles (encapsulation, abstraction)
+
+Includes unit tests for edge cases and method accuracy
+
+Uses constructor injection instead of direct instantiation
+
+🌱 Gitflow Branching Strategy
+Branch	Purpose
+main	Production-ready code
+develop	Integration of new features
+feature/*	Individual features
+test	Pre-merge test validation
+
+Workflow Example:
+
+git checkout -b feature/add-user-service
+# make changes
+git commit -m "feat: add user service implementation"
+git push origin feature/add-user-service
+# Open PR to develop
+
+📚 Resources
+Spring Boot Annotations – Baeldung
+
+Spring vs Spring Boot – DZone
+Spring Dependency Injection – Baeldung
+Spring Boot Tutorial – TutorialsPoint
+
+
+
