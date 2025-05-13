@@ -69,11 +69,8 @@ To execute unit tests:
 
 🧪 Code Quality & Testing Standards
 Descriptive commit messages using types: feat, fix, test, docs
-
 Follows Java naming conventions and OOP principles (encapsulation, abstraction)
-
 Includes unit tests for edge cases and method accuracy
-
 Uses constructor injection instead of direct instantiation
 
 🌱 Gitflow Branching Strategy
@@ -86,14 +83,11 @@ test	Pre-merge test validation
 Workflow Example:
 
 git checkout -b feature/add-user-service
-# make changes
 git commit -m "feat: add user service implementation"
 git push origin feature/add-user-service
-# Open PR to develop
 
 📚 Resources
 Spring Boot Annotations – Baeldung
-
 Spring vs Spring Boot – DZone
 Spring Dependency Injection – Baeldung
 Spring Boot Tutorial – TutorialsPoint
