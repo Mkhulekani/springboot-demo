@@ -22,4 +22,19 @@ This version uses an in-memory repository to simulate database operations, makin
 ---
 
 ## 📂 Project Structure
+spring-boot-user-demo/
+│
+├── src/
+│ ├── main/java/com/example/demo/
+│ │ ├── DemoApplication.java # Main class annotated with @SpringBootApplication
+│ │ ├── model/User.java # User model with id, name, surname
+│ │ ├── repo/FakeRepoInterface.java # Declares insert, find, delete methods
+│ │ ├── repo/FakeRepo.java # Implements in-memory repository logic
+│ │ ├── service/UserService.java # Service interface for business logic
+│ │ ├── service/UserServiceImpl.java # Implements UserService with dependency injection
+│ └── test/java/com/example/demo/
+│ └── service/UserServiceTests.java # Unit tests for service methods
+│
+├── build.gradle
+├── README.md
 
