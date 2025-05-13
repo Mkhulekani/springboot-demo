@@ -40,34 +40,37 @@ spring-boot-user-demo/
 
 
 ---
+### 🧰 How to Run
+
+1. **Clone the repository**
+   Click to open: 👉 [https://github.com/Mkhulekani/springboot-demo.git](https://github.com/Mkhulekani/springboot-demo.git)
+
+   ```bash
+   git clone https://github.com/Mkhulekani/springboot-demo.git
+   cd springboot-demo
+   ```
+
+2. **Run the application**
+
+   ```bash
+   ./gradlew bootRun
+   ```
+
+   You’ll see printed output in the console from service interactions like user added, removed, or retrieved.
 
 ---
 
-## 🔧 How to Run the App
+### ✅ How to Test
 
-### Clone the Repository
-
-```bash
-https://github.com/Mkhulekani/springboot-demo.git
-cd spring-boot-user-demo
-
-
-## 🧰 How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/spring-boot-user-demo.git
-cd spring-boot-user-demo
-
-2. 🧰 How to Run Application
-./gradlew bootRun
-
-3. You’ll see printed output in the console from service interactions.
-
-✅ How to Test
 To execute unit tests:
+
+`''''''
 ./gradlew test
+```
+
+> This runs JUnit 5 test cases for `addUser`, `getUser`, and `removeUser` methods in the `UserService`.
+
+---
 
 📌 Features Implemented
 
