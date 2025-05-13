@@ -41,6 +41,17 @@ spring-boot-user-demo/
 
 ---
 
+---
+
+## 🔧 How to Run the App
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/spring-boot-user-demo.git
+cd spring-boot-user-demo
+
+
 ## 🧰 How to Run
 
 1. Clone the repository:
