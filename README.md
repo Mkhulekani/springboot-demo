@@ -61,15 +61,10 @@ To execute unit tests:
 📌 Features Implemented
 
 ✅ MVC Layered Architecture
-
 ✅ Constructor-based Dependency Injection (@Autowired)
-
 ✅ Spring Boot annotations: @SpringBootApplication, @Override, etc.
-
 ✅ In-memory data handling via custom repository
-
 ✅ Clean, testable, and modular code
-
 ✅ Gitflow workflow for collaborative development
 
 🧪 Code Quality & Testing Standards
