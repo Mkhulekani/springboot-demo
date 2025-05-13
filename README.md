@@ -38,3 +38,22 @@ spring-boot-user-demo/
 ├── build.gradle
 ├── README.md
 
+
+---
+
+## 🧰 How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/spring-boot-user-demo.git
+cd spring-boot-user-demo
+
+2. 🧰 How to Run Application
+./gradlew bootRun
+
+3. You’ll see printed output in the console from service interactions.
+
+✅ How to Test
+To execute unit tests:
+./gradlew test
