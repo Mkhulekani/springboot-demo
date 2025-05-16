@@ -70,4 +70,41 @@ This project is a standard Spring Boot application. You will need the following 
 
 ## Project Structure
 
+spring-boot-user-demo/
+└── src/
+├── main/
+│   └── java/
+│       └── com/example/...
+│           ├── MainApplication.java
+│           ├── model/
+│           │   └── User.java
+│           ├── repository/
+│           │   ├── FakeRepo.java
+│           │   └── FakeRepoInterface.java
+│           └── service/
+│               ├── UserService.java
+│               └── UserServiceImpl.java
+└── test/
+└── java/
+└── com/example/...
+└── service/
+└── UserServiceTests.java
+├── build.gradle
+└── README.md
 
+
+
+## Deliverables
+
+This project includes the following key files:
+
+* `build.gradle`: Includes the `spring-boot-starter-web` dependency.
+* `MainApplication.java`: The main entry point of the Spring Boot application, annotated with `@SpringBootApplication`.
+* `User.java`: The model class representing a user with `id`, `name`, and `surname` attributes.
+* `FakeRepoInterface.java`: Declares methods: `insertUser(id, name, surname)`, `findUserById(id)`, `deleteUser(id)`.
+* `FakeRepo.java`: Implements `FakeRepoInterface` using an in-memory `User` object array to simulate data storage, providing implementations for `insertUser`, `findUserById`, and `deleteUser`.
+* `UserService.java`: Interface with `addUser(name, surname)`, `getUser(Id)`, `removeUser(Id)` methods.
+* `UserServiceImpl.java`: Implements the `UserService` interface, utilizing dependency injection. It includes logic for `addUser` (calls `insertUser` and prints '[name] added'), `removeUser` (calls `deleteUser` and prints '[name] removed'), and `getUser` (calls `findUserById` and prints 'hello [name]'). **Note:** It does not use the `new` keyword for `FakeRepo` instantiation.
+* `UserServiceTests.java`: Unit tests for all three service methods: `addUser`, `removeUser`, and `getUser`.
+* `README.md`: This file, providing an overview of the project, how to run it, and technologies used.
+* `.git/`: (Implicit) The Git repository, following Gitflow branching and commit standards.
