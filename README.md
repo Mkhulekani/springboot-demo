@@ -42,10 +42,13 @@ spring-boot-user-demo/
 ---
 
 🚀 How to Run This Project
+
 ✅ Prerequisites
 
 Before running this project, ensure you have the following installed on your system:
+
 1. Java Development Kit (JDK) 21 or higher
+   
 Download from:
 Oracle JDK
 OpenJDK
@@ -58,6 +61,7 @@ openjdk version "21.0.2" 2024-01-16
 
 
 2. **Clone the repository**
+   
    Click to open: 👉 [https://github.com/Mkhulekani/springboot-demo.git](https://github.com/Mkhulekani/springboot-demo.git)
 
    ```bash
@@ -65,7 +69,7 @@ openjdk version "21.0.2" 2024-01-16
    cd springboot-demo
    ```
 
-3. **Run the application**
+4. **Run the application**
 
    ```bash
    ./gradlew bootRun
