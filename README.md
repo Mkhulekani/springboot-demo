@@ -71,25 +71,45 @@ This project is a standard Spring Boot application. You will need the following 
 ## Project Structure
 
 spring-boot-user-demo/
+
 └── src/
+
 ├── main/
+
 │   └── java/
+
 │       └── com/example/...
+
 │           ├── MainApplication.java
+
 │           ├── model/
+
 │           │   └── User.java
+
 │           ├── repository/
+
 │           │   ├── FakeRepo.java
+
 │           │   └── FakeRepoInterface.java
+
 │           └── service/
+
 │               ├── UserService.java
+
 │               └── UserServiceImpl.java
+
 └── test/
+
 └── java/
+
 └── com/example/...
+
 └── service/
+
 └── UserServiceTests.java
+
 ├── build.gradle
+
 └── README.md
 
 
